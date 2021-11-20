@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "dependencies": {
+        "fastify": "^3.24.0",
+        "fastify-autoload": "^3.9.0",
+        "fastify-cors": "^6.0.2",
+        "fastify-multipart": "^5.1.0"
+    }
+}

@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #ccd9ed;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+    flex-flow: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 4px 24px -2px rgba(18, 22, 33, 0.1);
+    border-radius: 6px;
+}
+
+.formContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+nav > button {
+    background-color: white;
+    border: none;
+    margin-left: 3rem;
+}
+
+.primary {
+    height: 100%;
+    border-bottom: 1px solid #5628ee;
+    color: #5628ee;
+}
+
+nav {
+    height: 10%;
+    border-bottom: 1px solid #cdd9ed;
+    display: flex;
+    align-items: center;
+}
+
+.sendFileButton {
+    width: 30%;
+    background-color: #5628ee;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    margin-top: 5em;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    border: 1px solid #5628ee;
+    color: #5628ee;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 4em;
+}
